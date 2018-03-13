@@ -3,7 +3,7 @@
 
 ###### this project was developed by dlabs teams. We are using this command for our ALM process. Please use carefully.
 
-Until now we can push this method:
+Until now we have created this method:
 
 ```
 Get-DataEntityByFetch
