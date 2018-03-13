@@ -6,7 +6,7 @@
 Until now we have created this method:
 
 ```
-Get-DataEntityByFetch
+Get-DataEntityByFetch [Contribution guidelines for this project](docs/Get-DataEntityByFetch.md)
 ```
 
 **Microsoft.Xrm.Data.PowerShell**
