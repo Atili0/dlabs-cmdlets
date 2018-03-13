@@ -22,3 +22,18 @@ Parameter used for this function
     > Alias : k
     > Mandatory : false
     > ValidateLength : admit 16-20
+
+**EXAMPLE**
+
+```xml
+$fetch = "<fetch top='50' >" +
+  "<entity name='account'>" +
+    "<attribute name='name'/>" +
+    "<attribute name='accountnumber'/>"+
+  "</entity>" +
+"</fetch>";
+
+
+Get-DataEntityByFetch -c $conn -e account -k "dlabs.mscrm.2018" -f $fetch
+
+```
